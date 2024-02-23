@@ -1,0 +1,24 @@
+{
+    "name": "blocksframework/widgets",
+    "description": "Various front-end widgets",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "widgets"
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Widgets\\":"src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
