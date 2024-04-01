@@ -1,6 +1,6 @@
 {
     "name": "blocksframework/widgets",
-    "description": "Various front-end widgets",
+    "description": "Various front-end widgets and classes related to Blocks PHP framework",
     "license": "MIT",
     "keywords": [
         "blocks",
@@ -8,11 +8,13 @@
         "widgets"
     ],
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
-            "Blocks\\Widgets\\":"src/class"
+            "Blocks\\Widgets\\": "src/class"
         }
     },
     "authors": [
